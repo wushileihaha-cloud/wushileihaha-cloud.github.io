@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Countdown – Support</title>
+  <meta name="description" content="Help and contact for Countdown, the anniversary and countdown app for iPhone.">
+  <style>
+:root {
+  --bg: #f6f1ea;
+  --card: #fffdf9;
+  --text: #2b2420;
+  --muted: #7a6e66;
+  --line: #e7ddd2;
+  --accent: #e07a5f;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161311;
+    --card: #211d1a;
+    --text: #f2ebe4;
+    --muted: #a99d94;
+    --line: #3a332e;
+    --accent: #ef9478;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans", sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 48px 20px 64px;
+}
+
+header { margin-bottom: 32px; }
+
+.mark {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--accent);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+h1 { font-size: 32px; line-height: 1.2; margin: 0 0 6px; }
+h2 { font-size: 20px; margin: 36px 0 8px; }
+p, li { margin: 0 0 12px; }
+ul { padding-left: 22px; margin: 0 0 12px; }
+
+.muted { color: var(--muted); font-size: 15px; }
+
+.summary {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  border-radius: 14px;
+  padding: 16px 20px;
+  margin: 24px 0 8px;
+}
+.summary p:last-child { margin-bottom: 0; }
+
+a { color: var(--accent); }
+
+nav.lang {
+  display: flex;
+  gap: 16px;
+  font-size: 15px;
+  margin-top: 12px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 56px 0 40px;
+}
+
+footer { margin-top: 48px; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="mark" aria-hidden="true">⏳</div>
+    <h1>Countdown</h1>
+    <p class="muted">Every day you're waiting for, beautifully. · 让每一个期待的日子都好看。</p>
+    <nav class="lang"><a href="#en">English</a><a href="#zh">简体中文</a></nav>
+  </header>
+
+  <section id="en" lang="en">
+    <h2>Need help?</h2>
+    <p>Email <a href="mailto:luckytonyma@gmail.com">luckytonyma@gmail.com</a> and we'll get back to you. It helps to include your iPhone model and iOS version.</p>
+
+    <h2>Common questions</h2>
+    <p><strong>How do I add a widget?</strong><br>Touch and hold an empty area of your Home Screen, tap Edit, then Add Widget, and choose Countdown. Touch and hold the widget and tap Edit Widget to pick which day it shows.</p>
+    <p><strong>How do I move my days to a new iPhone?</strong><br>In the app, open Settings and tap Back up to Files. On the new iPhone, open Settings and tap Restore from backup, then choose that file.</p>
+    <p><strong>I bought Pro but it isn't unlocked.</strong><br>Open Settings in the app and tap Restore purchases, signed in with the same Apple Account you used to buy.</p>
+    <p><strong>How do I cancel my subscription?</strong><br>Open the Settings app on your iPhone, tap your name, then Subscriptions. You can also tap Manage subscription in the app's settings.</p>
+  </section>
+
+  <hr>
+
+  <section id="zh" lang="zh-Hans">
+    <h2>需要帮助？</h2>
+    <p>请发邮件到 <a href="mailto:luckytonyma@gmail.com">luckytonyma@gmail.com</a>，我们会尽快回复。附上你的 iPhone 型号和 iOS 版本会更方便排查。</p>
+
+    <h2>常见问题</h2>
+    <p><strong>怎么添加小组件？</strong><br>在主屏幕空白处长按，点「编辑」→「添加小组件」，选择倒数日。长按小组件，点「编辑小组件」可以选择显示哪个纪念日。</p>
+    <p><strong>换新 iPhone 怎么转移数据？</strong><br>在 APP 的设置里点「备份到文件」。在新 iPhone 上打开设置，点「从备份恢复」，选择那个文件。</p>
+    <p><strong>买了 Pro 但没有解锁？</strong><br>在 APP 的设置里点「恢复购买」，并确认登录的是购买时用的 Apple 账户。</p>
+    <p><strong>怎么取消订阅？</strong><br>打开 iPhone 的「设置」APP，点你的名字，再点「订阅」。也可以在 APP 设置里点「管理订阅」。</p>
+  </section>
+
+  <footer class="muted"><a href="privacy.html">Privacy Policy · 隐私政策</a></footer>
+</main>
+</body>
+</html>
